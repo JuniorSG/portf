@@ -1,0 +1,108 @@
+.proyects {
+  color: aliceblue;
+  background-color: rgb(51, 51, 51);
+  width: 700px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  animation: fadeIn 5s 2s backwards;
+  h1 {
+    position: absolute;
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 30px;
+    text-shadow: 1px 2px 15px #00f7ff;
+    color: rgb(255, 255, 255);
+  }
+  .landingpages {
+    top: 20%;
+    left: 39%;
+  }
+  .demos {
+    bottom: 20%;
+    left: 45%;
+  }
+
+  img {
+    width: 50%;
+    height: 195px;
+    transition: all 1s;
+  }
+  img:hover {
+    transform: scale(1.2);
+    box-shadow: 1px 0px 12px 2px #00f7ff;
+  }
+
+  .proyect1 {
+    display: grid;
+  }
+}
+.skill-container {
+  display: block;
+  // background-color: #fff;
+  height: 400px;
+}
+.skill-bar {
+  display: flex;
+  margin-top: 15px;
+  width: 400px;
+  justify-content: space-between;
+  align-items: center;
+  animation: fadeIn 3s 3s backwards;
+
+  .skill-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .htmlbar {
+    border: 1px solid #fff;
+    width: 200px;
+    height: 20px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, #ffffff 0%, #00f7ff 100%);
+  }
+  .reactbar {
+    border: 1px solid #fff;
+    width: 200px;
+    height: 20px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, #ffffff 0%, #00f7ff 85%, #00001a 20%);
+  }
+  .cssbar {
+    border: 1px solid #fff;
+    width: 200px;
+    height: 20px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, #ffffff 0%, #00f7ff 70%, #00001a 70%);
+  }
+  .idm {
+    .flag {
+      width: 70px;
+      height: 40px;
+      margin-top: 5px;
+      margin-left: 35px;
+    }
+  }
+  .pythonbar {
+    border: 1px solid #fff;
+    width: 200px;
+    height: 20px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, #ffffff 0%, #00f7ff 35%, #00001a 35%);
+  }
+  .enbar {
+    border: 1px solid #fff;
+    width: 200px;
+    height: 20px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, #ffffff 0%, #00f7ff 80%, #00001a 80%);
+  }
+  .frbar {
+    border: 1px solid #fff;
+    width: 200px;
+    height: 20px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, #ffffff 0%, #00f7ff 35%, #00001a 35%);
+  }
+}
