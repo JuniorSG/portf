@@ -1,11 +1,11 @@
-import { Link, NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import './index.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faDiscord,
   faGithub,
   faLinkedin,
-  faYoutube,
+  // faYoutube,
 } from '@fortawesome/free-brands-svg-icons'
 import {
   faEnvelope,
@@ -61,7 +61,7 @@ const Sidebar = () => (
           <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
         </a>
       </li>
-      <li>
+      {/* <li>
         <a
           target="_blank"
           rel="noreferrer"
@@ -69,7 +69,7 @@ const Sidebar = () => (
         >
           <FontAwesomeIcon icon={faYoutube} color="#4d4d4e" />
         </a>
-      </li>
+      </li> */}
       <li>
         <a
           target="_blank"

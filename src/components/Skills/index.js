@@ -7,21 +7,15 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faBootstrap,
   faCss3,
-  faDocker,
   faGitAlt,
-  faGitlab,
   faHtml5,
   faJava,
   faJsSquare,
   faNodeJs,
   faPython,
   faReact,
-  faReacteurope,
-  faReddit,
   faSass,
-  faSteamSymbol,
 } from '@fortawesome/free-brands-svg-icons'
-import { faGasPump } from '@fortawesome/free-solid-svg-icons'
 
 const Skills = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -147,10 +141,11 @@ const Skills = () => {
           </div>
         </div>
         <div className="proyects">
-          <img src={require('../../assets/images/PreImg1.png')} alt="img1" />
+          {/* <img src={require('../../assets/images/PreImg1.png')} alt="img1" />
           <img src={require('../../assets/images/PreImg2.png')} alt="img2" />
           <img src={require('../../assets/images/PreImg7.png')} alt="img7" />
-          <img src={require('../../assets/images/PreImg8.png')} alt="img8" />
+          <img src={require('../../assets/images/PreImg8.png')} alt="img8" /> */}
+          <h2>&lt;SomeProyects/&gt;</h2>
 
           <a href="https://linkedin-clone-yt-cd9ca.web.app/" target="_blank">
             <img
@@ -172,9 +167,8 @@ const Skills = () => {
           <a href="https://rx78sensormb.vercel.app/" target="_blank">
             <img src={require('../../assets/images/mst.png')} alt="mst" />
           </a>
-
-          <h1 className="demos">Demos</h1>
-          <h1 className="landingpages">Landingpages</h1>
+          {/* <h1 className="demos">Demos</h1> */}
+          {/* <h1 className="landingpages">Landingpages</h1> */}
         </div>
       </div>
       <Loader type="pacman" />
